@@ -17,9 +17,21 @@ L1-00:19 What is MultiThreading and its Purpose?
 How to create a Thread? How to acheive Multi-Threading programmatically using Threads?
   1. By extending Thread Class
   2. By implementing Runnable Interface
-
+1-:
+  run()- the method that define what job that thread is going to perform
+  start()-thrad obj when we invoke start method on a thread it create rhe thread and internally invoke run method
+	implimentation provided to the rum mrthod that ger exicutade
+2-:
+   when we implement Runnable I/F -that class object can not invoke start method 
+	-becaus start() method available in Thread class 
+	So for invoking start() method ,we have to create Thread class object and we can pass runnable implemented class 
+	instance in thread class constructor so that it can pick the run() impl from run which in runnable implement class
+	then we start start() method 
+	
 Which approach is better? ⭐️
   implementing Runnable is a better approach.
+	---> when we extends thread class there is no chance to extends any other class- sence java dose not support multiple inheritance 
+	   But in case we are implementing Runnable I/F we can extends one more(only 1) class along with implementation 
 
 What is Main Thread?
   Thread responsible to execute the main method.
