@@ -136,6 +136,7 @@ Explain yield() method in thread class ?
     yield() makes current thread to sleep for a specified amount of time.T
     here is no guarantee that moving a current running thread from runnable to running state.
     It all depends on thread scheduler it doesn’t guarantee anything.
+	( yield() static method )
 
 Explain how join method works?
     A thread can invoke the join() method on other thread to wait for other thread to complete its
@@ -159,6 +160,7 @@ Explain about interrupt() method of thread class ?
     calling the interrupt() method on the thread, breaks out the sleeping or waiting state
     throwing InterruptedException. This is reason we need to handle interrupted exception with throws
     or try/ catch block.
+	(InterruptedException is checked exception 
 
 What is Race Condition and when it occur?⭐️
     when more than one thread operate on same object without proper synchronization
