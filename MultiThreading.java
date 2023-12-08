@@ -4,7 +4,9 @@ L1-00:19 What is MultiThreading and its Purpose?
 
   Multi-tasking is acheived in 2 ways:
   1. Process Based
-  2. Thread Based is Multi-MultiThreading
+  2. Thread Based is Multi-MultiThreading -is process to achive multitasking by creating multiple thread in a program
+	Parallel multithreading is to provide simalteniously exicution of two or more part of program
+	Maximum utilization of cpu 
 
  What is Thread? ⭐️
   Thread is separate path of execution in program.
