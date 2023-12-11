@@ -339,6 +339,7 @@ L7-02:37 What are the core concepts of oops?
 
     1. Data Hiding : hiding the internal data, Securing the internal data
     2. Abstraction : way to segregate implementations from other entities (Hiding internal implementation)
+			only the essential details are displayed to user,non-essendtial -->not display to the user
     3. Encapsulation : Grouping of data member and member functions together
     4. Inheritance : Inheritance is the process of creating a new Class from the existing class(Inheriting properties from a class)
     5. Association
@@ -359,7 +360,7 @@ L8-01:04 What is difference between Abstract Class and Interface?
 
     1. In abstract class, we can have both abstract and concrete methods where as in Interface,
        we can only have abstract methods, they cannot have concrete methods.
-       However we can have static, default and private methods in interface.
+       However we can have public and abstrac  methods in interface.
 
     2. We can extend only one Abstract Class at a time where as in case of interfaces, we can implement
        any number of interfaces at a time.
